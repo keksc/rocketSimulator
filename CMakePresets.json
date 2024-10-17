@@ -5,8 +5,8 @@
       "name": "windows-base",
       "hidden": true,
       "generator": "Ninja",
-      "binaryDir": "${sourceDir}/bin",
-      "installDir": "${sourceDir}/bin",
+      "binaryDir": "${sourceDir}/build",
+      "installDir": "${sourceDir}/build",
       "cacheVariables": {
         "CMAKE_C_COMPILER": "cl.exe",
         "CMAKE_CXX_COMPILER": "cl.exe"
