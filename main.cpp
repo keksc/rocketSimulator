@@ -118,7 +118,7 @@ void updateCamera(scene::ICameraSceneNode *camera, EventReceiver &receiver,
   camera->setTarget(camTarget);
 }
 int main() {
-  // audio::play("resources/321_ignition.wav");
+  audio::play("resources/321_ignition.wav");
   audio::loop::start("resources/rocket_sound.wav");
 
   SIrrlichtCreationParameters params;
